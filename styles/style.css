@@ -1,3 +1,40 @@
 body {
     background-color:#fff;
+    width: 1440px;
+    font-family: "Roboto";
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.nav-bar-main {
+    height: 72px;
+    text-decoration: none;
+}
+
+.logo-header {
+    font-family: "Raleway", sans-serif;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2e2f42;
+   
+
+}
+
+.logo-header-web {
+    color: #4d5ae5;
+}
+
+.adress-header {
+    text-decoration: none;
 }
