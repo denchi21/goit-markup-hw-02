@@ -25,6 +25,7 @@ a {
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
+.nav-section:focus,
 .nav-section:hover {
     font-weight: 500;
     font-size: 16px;
@@ -34,6 +35,15 @@ a {
 }
 
 .logo-header {
+    font-family: "Raleway", sans-serif;
+    color: #4d5ae5;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.logo-header-studio {
     font-family: "Raleway", sans-serif;
     text-decoration: none;
     font-weight: 700;
@@ -49,11 +59,17 @@ a {
 }
 
 .adress-head {
+    font-style: normal
     text-decoration: none;
     font-size: 16px;
     line-height: 1.5;
     color: #434455;
     letter-spacing: 0.02em;
+}
+
+.adress-head:hover,
+.adress-head:focus {
+    color: #404bbf;
 }
 
 .adress-head:hover {
