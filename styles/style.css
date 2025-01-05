@@ -1,7 +1,8 @@
 body {
     background-color:#fff;
     width: 1440px;
-    font-family: "Roboto";
+    font-family: "Roboto" ,
+        sans-serif;
 }
 
 li {
@@ -58,17 +59,16 @@ a {
     color: #4d5ae5;
 }
 
-.adress-head {
-    font-style: normal
-    text-decoration: none;
+.address-head {
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    color: #434455;
     letter-spacing: 0.02em;
+    color: #434455;
 }
 
-.adress-head:hover,
-.adress-head:focus {
+.address-head:hover,
+.address-head:focus {
     color: #404bbf;
 }
 
