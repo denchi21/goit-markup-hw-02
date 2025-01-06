@@ -40,16 +40,14 @@ a {
 .logo-header-studio {
     font-family: "Raleway", sans-serif;
     text-decoration: none;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #2e2f42;
 }
 
-.address-head {
+.address {
     font-style: normal;
+}
+.address-head {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -95,6 +93,7 @@ a {
 .button:hover,
 .button:focus {
     background-color: #404BBF;
+    cursor: pointer;
 }
 
 .adv-title {
@@ -121,8 +120,11 @@ a {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    text-align: center;
     color: #2e2f42;
+}
+
+.team-card {
+    background-color: #FFFFFF;
 }
 
 .team-person {
@@ -130,7 +132,6 @@ a {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    text-align: center;
     color: #2e2f42;
 }
 
@@ -138,7 +139,6 @@ a {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    text-align: center;
     color: #434455;
 }
 
@@ -180,7 +180,7 @@ a {
 }
 
 .footer-text {
-    line-height: 1.5;
+        line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #f4f4fd;
+        color: #f4f4fd;
 }
